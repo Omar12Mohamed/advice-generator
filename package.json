@@ -5,6 +5,7 @@
   "type": "module",
 
   "scripts": {
+    
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
     "dev": "vite",
@@ -12,7 +13,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://Omar12Mohamed/github.io/advice-generator",
+  
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
